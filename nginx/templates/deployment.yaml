@@ -20,7 +20,6 @@ spec:
       labels:
         {{- include "nginx.selectorLabels" . | nindent 8 }}
     spec:
-      replicas: 4
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
         {{- toYaml . | nindent 8 }}
