@@ -1,3 +1,3 @@
 # helm_practice_nginx
 
-HelmでNginxを入れる練習
+HelmでNginxを入れる練習をしてみた
